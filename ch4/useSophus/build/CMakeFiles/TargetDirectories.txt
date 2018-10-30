@@ -1,0 +1,7 @@
+/home/ellis/code/slam/ch4/useSophus/build/CMakeFiles/rebuild_cache.dir
+/home/ellis/code/slam/ch4/useSophus/build/CMakeFiles/install.dir
+/home/ellis/code/slam/ch4/useSophus/build/CMakeFiles/list_install_components.dir
+/home/ellis/code/slam/ch4/useSophus/build/CMakeFiles/usesophus.dir
+/home/ellis/code/slam/ch4/useSophus/build/CMakeFiles/edit_cache.dir
+/home/ellis/code/slam/ch4/useSophus/build/CMakeFiles/install/strip.dir
+/home/ellis/code/slam/ch4/useSophus/build/CMakeFiles/install/local.dir

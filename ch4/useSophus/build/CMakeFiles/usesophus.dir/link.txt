@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/usesophus.dir/main.cpp.o  -o usesophus -rdynamic /home/ellis/Sophus/build/libSophus.so -Wl,-rpath,/home/ellis/Sophus/build: 

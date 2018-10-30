@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ellis/code/slam/ch3/useGeometry/main.cpp
+iostream
+-
+cmath
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Geometry
+-
+

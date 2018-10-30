@@ -1,0 +1,7 @@
+/home/ellis/code/slam/ch5/imagebasic/build/CMakeFiles/install.dir
+/home/ellis/code/slam/ch5/imagebasic/build/CMakeFiles/list_install_components.dir
+/home/ellis/code/slam/ch5/imagebasic/build/CMakeFiles/rebuild_cache.dir
+/home/ellis/code/slam/ch5/imagebasic/build/CMakeFiles/imagebasic.dir
+/home/ellis/code/slam/ch5/imagebasic/build/CMakeFiles/install/strip.dir
+/home/ellis/code/slam/ch5/imagebasic/build/CMakeFiles/install/local.dir
+/home/ellis/code/slam/ch5/imagebasic/build/CMakeFiles/edit_cache.dir
