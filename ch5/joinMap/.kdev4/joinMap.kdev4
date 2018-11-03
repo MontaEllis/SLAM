@@ -12,7 +12,11 @@ Build Type=Debug
 CMake Binary=file:///usr/bin/cmake
 Environment Profile=
 Extra Arguments=
+<<<<<<< HEAD
 Install Directory=
+=======
+Install Directory=file:///usr/local
+>>>>>>> 5b919f008dd677a494b178a43d2b96779443486e
 
 [Defines And Includes][Compiler]
 Name=GCC

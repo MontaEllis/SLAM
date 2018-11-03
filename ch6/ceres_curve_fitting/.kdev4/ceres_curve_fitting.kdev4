@@ -1,5 +1,5 @@
 [Buildset]
-BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x16\x00u\x00s\x00e\x00G\x00e\x00o\x00m\x00e\x00t\x00r\x00y)
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00&\x00c\x00e\x00r\x00e\x00s\x00_\x00c\x00u\x00r\x00v\x00e\x00_\x00f\x00i\x00t\x00t\x00i\x00n\x00g)
 
 [CMake]
 Build Directory Count=1
@@ -7,16 +7,12 @@ Current Build Directory Index=0
 ProjectRootRelative=./
 
 [CMake][CMake Build Directory 0]
-Build Directory Path=file:///home/ellis/code/slam/ch3/useGeometry/build
+Build Directory Path=file:///home/ellis/code/slam/ch6/ceres_curve_fitting/build
 Build Type=Debug
 CMake Binary=file:///usr/bin/cmake
 Environment Profile=
 Extra Arguments=
-<<<<<<< HEAD
-Install Directory=
-=======
 Install Directory=file:///usr/local
->>>>>>> 5b919f008dd677a494b178a43d2b96779443486e
 
 [Defines And Includes][Compiler]
 Name=GCC
@@ -29,13 +25,13 @@ Launch Configurations=Launch Configuration 0
 [Launch][Launch Configuration 0]
 Configured Launch Modes=execute
 Configured Launchers=nativeAppLauncher
-Name=usegeometry
+Name=ceres_curve_fitting
 Type=Native Application
 
 [Launch][Launch Configuration 0][Data]
-Configured from ProjectItem=useGeometry,usegeometry
-Project Target=useGeometry,usegeometry
-Working Directory=file:///home/ellis/code/slam/ch3/useGeometry/build/
+Configured from ProjectItem=ceres_curve_fitting,ceres_curve_fitting
+Project Target=ceres_curve_fitting,ceres_curve_fitting
+Working Directory=file:///home/ellis/code/slam/ch6/ceres_curve_fitting/build/
 isExecutable=false
 
 [Project]

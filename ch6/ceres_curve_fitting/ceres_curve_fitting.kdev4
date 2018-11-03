@@ -1,0 +1,4 @@
+[Project]
+Name=ceres_curve_fitting
+Manager=KDevCMakeManager
+VersionControl=
