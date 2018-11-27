@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/ch7.dir/feature_extraction.cpp.o  -o ch7 -rdynamic 

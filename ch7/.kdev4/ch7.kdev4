@@ -1,5 +1,5 @@
 [Buildset]
-BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00c\x00h\x007)
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x02\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00c\x00h\x007\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00c\x00h\x007\x00\x00\x00\x1a\x00t\x00r\x00i\x00a\x00n\x00g\x00u\x00l\x00a\x00t\x00i\x00o\x00n)
 
 [CMake]
 Build Directory Count=1
@@ -148,7 +148,7 @@ pattern=__pycache__
 targets=2
 
 [Launch]
-Launch Configurations=Launch Configuration 0,Launch Configuration 1
+Launch Configurations=Launch Configuration 0,Launch Configuration 1,Launch Configuration 2
 
 [Launch][Launch Configuration 0]
 Configured Launch Modes=execute
@@ -174,5 +174,20 @@ Project Target=ch7,pose_estimation_2d2d
 Working Directory=file:///home/ellis/code/slam/ch7/build/
 isExecutable=false
 
+[Launch][Launch Configuration 2]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=triangulation
+Type=Native Application
+
+[Launch][Launch Configuration 2][Data]
+Configured from ProjectItem=ch7,triangulation
+Project Target=ch7,triangulation
+Working Directory=file:///home/ellis/code/slam/ch7/build/
+isExecutable=false
+
 [Project]
 VersionControlSupport=kdevgit
+
+[SourceFileTemplates]
+LastUsedTemplate=/home/ellis/.kde/share/apps/kdevfiletemplates/template_descriptions/private_pointer.desktop

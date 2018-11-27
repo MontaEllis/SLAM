@@ -286,9 +286,6 @@ CUDA_npps_LIBRARY:FILEPATH=/usr/local/cuda-9.0/lib64/libnpps.so
 //Path to a library.
 CUDA_rt_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 
-//The directory containing a CMake configuration file for G20.
-G20_DIR:PATH=G20_DIR-NOTFOUND
-
 //Path to a library.
 G2O_CLI_LIBRARY:FILEPATH=/usr/local/lib/libg2o_cli.so
 
@@ -300,9 +297,6 @@ G2O_CORE_LIBRARY:FILEPATH=/usr/local/lib/libg2o_core.so
 
 //Path to a library.
 G2O_CORE_LIBRARY_DEBUG:FILEPATH=G2O_CORE_LIBRARY_DEBUG-NOTFOUND
-
-//The directory containing a CMake configuration file for G2O.
-G2O_DIR:PATH=G2O_DIR-NOTFOUND
 
 //Path to a file.
 G2O_INCLUDE_DIR:PATH=/usr/local/include
@@ -402,9 +396,6 @@ G2O_TYPES_SLAM3D:FILEPATH=/usr/local/lib/libg2o_types_slam3d.so
 
 //Path to a library.
 G2O_TYPES_SLAM3D_DEBUG:FILEPATH=G2O_TYPES_SLAM3D_DEBUG-NOTFOUND
-
-//The directory containing a CMake configuration file for G2o.
-G2o_DIR:PATH=G2o_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/local/share/OpenCV
