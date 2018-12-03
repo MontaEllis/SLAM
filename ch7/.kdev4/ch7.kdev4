@@ -1,5 +1,5 @@
 [Buildset]
-BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x02\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00c\x00h\x007\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00c\x00h\x007\x00\x00\x00\x1a\x00t\x00r\x00i\x00a\x00n\x00g\x00u\x00l\x00a\x00t\x00i\x00o\x00n)
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00c\x00h\x007\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00c\x00h\x007\x00\x00\x00\x1a\x00t\x00r\x00i\x00a\x00n\x00g\x00u\x00l\x00a\x00t\x00i\x00o\x00n\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00c\x00h\x007\x00\x00\x00(\x00p\x00o\x00s\x00e\x00_\x00e\x00s\x00t\x00i\x00m\x00a\x00t\x00i\x00o\x00n\x00_\x003\x00d\x002\x00d)
 
 [CMake]
 Build Directory Count=1
@@ -148,7 +148,7 @@ pattern=__pycache__
 targets=2
 
 [Launch]
-Launch Configurations=Launch Configuration 0,Launch Configuration 1,Launch Configuration 2
+Launch Configurations=Launch Configuration 0,Launch Configuration 1,Launch Configuration 2,Launch Configuration 3
 
 [Launch][Launch Configuration 0]
 Configured Launch Modes=execute
@@ -183,6 +183,18 @@ Type=Native Application
 [Launch][Launch Configuration 2][Data]
 Configured from ProjectItem=ch7,triangulation
 Project Target=ch7,triangulation
+Working Directory=file:///home/ellis/code/slam/ch7/build/
+isExecutable=false
+
+[Launch][Launch Configuration 3]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=pose_estimation_3d2d
+Type=Native Application
+
+[Launch][Launch Configuration 3][Data]
+Configured from ProjectItem=ch7,pose_estimation_3d2d
+Project Target=ch7,pose_estimation_3d2d
 Working Directory=file:///home/ellis/code/slam/ch7/build/
 isExecutable=false
 

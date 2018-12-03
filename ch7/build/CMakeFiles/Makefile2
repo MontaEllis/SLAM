@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /home/ellis/code/slam/ch7
 CMAKE_BINARY_DIR = /home/ellis/code/slam/ch7/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/pose_estimation_3d2d.dir
+
+# All Build rule for target.
+CMakeFiles/pose_estimation_3d2d.dir/all:
+	$(MAKE) -f CMakeFiles/pose_estimation_3d2d.dir/build.make CMakeFiles/pose_estimation_3d2d.dir/depend
+	$(MAKE) -f CMakeFiles/pose_estimation_3d2d.dir/build.make CMakeFiles/pose_estimation_3d2d.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellis/code/slam/ch7/build/CMakeFiles --progress-num=5,6 "Built target pose_estimation_3d2d"
+.PHONY : CMakeFiles/pose_estimation_3d2d.dir/all
+
+# Include target in all.
+all: CMakeFiles/pose_estimation_3d2d.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pose_estimation_3d2d.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellis/code/slam/ch7/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pose_estimation_3d2d.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellis/code/slam/ch7/build/CMakeFiles 0
+.PHONY : CMakeFiles/pose_estimation_3d2d.dir/rule
+
+# Convenience name for target.
+pose_estimation_3d2d: CMakeFiles/pose_estimation_3d2d.dir/rule
+
+.PHONY : pose_estimation_3d2d
+
+# clean rule for target.
+CMakeFiles/pose_estimation_3d2d.dir/clean:
+	$(MAKE) -f CMakeFiles/pose_estimation_3d2d.dir/build.make CMakeFiles/pose_estimation_3d2d.dir/clean
+.PHONY : CMakeFiles/pose_estimation_3d2d.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pose_estimation_3d2d.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pose_estimation_2d2d.dir
 
 # All Build rule for target.
@@ -140,7 +177,7 @@ clean: CMakeFiles/feature_extraction.dir/clean
 CMakeFiles/triangulation.dir/all:
 	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/depend
 	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellis/code/slam/ch7/build/CMakeFiles --progress-num=5,6 "Built target triangulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellis/code/slam/ch7/build/CMakeFiles --progress-num=7,8 "Built target triangulation"
 .PHONY : CMakeFiles/triangulation.dir/all
 
 # Include target in all.
