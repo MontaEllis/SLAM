@@ -1,0 +1,4 @@
+/home/ellis/code/slam/ch8/directMethod/build/CMakeFiles/edit_cache.dir
+/home/ellis/code/slam/ch8/directMethod/build/CMakeFiles/rebuild_cache.dir
+/home/ellis/code/slam/ch8/directMethod/build/CMakeFiles/direct_semidense.dir
+/home/ellis/code/slam/ch8/directMethod/build/CMakeFiles/direct_sparse.dir

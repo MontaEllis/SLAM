@@ -1,0 +1,82 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x18\x00d\x00i\x00r\x00e\x00c\x00t\x00M\x00e\x00t\x00h\x00o\x00d)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/ellis/code/slam/ch8/directMethod/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 1,Launch Configuration 2,Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=direct_semidense
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=/home/ellis/code/slam/ch8/data/rgbd_dataset_freiburg1_desk
+Configured from ProjectItem=directMethod,direct_semidense
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///home/ellis/code/slam/ch8/directMethod/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=directMethod,direct_semidense
+Use External Terminal=false
+Working Directory=file:///home/ellis/code/slam/ch8/directMethod/build/
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=direct_sparse
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=/home/ellis/code/slam/ch8/data/rgbd_dataset_freiburg1_desk
+Configured from ProjectItem=directMethod,direct_sparse
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///home/ellis/code/slam/ch8/directMethod/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=directMethod,direct_sparse
+Use External Terminal=false
+Working Directory=file:///home/ellis/code/slam/ch8/directMethod/build/
+isExecutable=false
+
+[Launch][Launch Configuration 2]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=direct_semidense
+Type=Native Application
+
+[Launch][Launch Configuration 2][Data]
+Arguments=/home/ellis/code/slam/ch8/data/rgbd_dataset_freiburg1_desk
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/ellis/code/slam/ch8/directMethod/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=directMethod,direct_semidense
+Use External Terminal=false
+Working Directory=file:///home/ellis/code/slam/ch8/directMethod/build/
+isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit
